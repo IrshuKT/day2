@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: auto;
+}
+    .nav{
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        margin-left: 560px;
+    }
+  li{
+    display: inline;
+    color: blue;
+  }
+  
+  li a {
+    padding: 8px;
+    text-decoration: none;
+   
+  }
+
+.logos{
+    background-color: #E2E2E2;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 20px;
+}
+.heading{
+    font-size: 75px;
+}
+.link{
+    background-color: rgb(54, 52, 52);
+    text-align: center;
+    height: 60px;
+    width: 70%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-top: 25px;
+    
+}
+.link li{
+    display: inline;
+    margin: 20px;
+    color: white;
+    text-align: center;
+   
+
+}
+.img{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    width:65%;
+}
+.main{
+ display: flex;
+ width: auto;
+ margin: auto;
+
+ max-width: 80%;
+ margin-bottom: 50px;
+}
+.main-left{
+    flex: 1;
+width: auto;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.head h1{
+    font-size: 60px;
+    align-items: center;
+    margin: 0;
+   
+}
+.text1{
+    margin-left: 20px;
+    padding: 50px;
+ 
+}
+.text2{
+   margin-left: 10px;
+   padding: 30px;
+  
+}
+.text3{
+   margin-left: 25px;
+   padding: 20px;
+
+}
+
+.img2{
+    display: flex;
+
+ flex-wrap: wrap;
+ justify-items: center;
+ justify-content: space-between;
+ margin: auto;
+ align-items: center;
+ 
+}
+
+.foot{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #87878785;
+    height: 90px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+.left{
+      float: left;
+      margin-left: 60px;
+}
+.right{
+   
+    float: right;
+    margin-right: 60px;
+}
